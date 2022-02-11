@@ -1,8 +1,5 @@
 import React from "react";
-
-interface TitleProps {
-  title: string;
-}
+import { TitleProps } from "../types";
 
 const Header = ({ title }: TitleProps) => {
   return <h1>{title}</h1>;

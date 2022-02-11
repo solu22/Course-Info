@@ -1,13 +1,14 @@
 import React from 'react'
+import { TotalExerciseProps } from '../types';
 
-interface TotalExerciseProps{
-    exerciseCount: number
-}
+
+
+const pText = " Number of exercises";
 
 const Total = ({ exerciseCount }: TotalExerciseProps) => {
   return <div>
-      Number of exercises 
-       {exerciseCount}
+     
+       {pText} {exerciseCount}
       </div>;
 };
 
